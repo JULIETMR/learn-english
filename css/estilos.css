@@ -108,7 +108,7 @@ h2 {
 .card{
     margin: 5px;
     width: 15rem;
-    height: 28rem;
+    height: 18rem;
     background-color: #9dbeec;
     border-radius: 30px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
@@ -118,9 +118,17 @@ h2 {
     height: 150px;
 }
 .card-body{
-height: 24rem;
+height: 18rem;
 text-align: center;
+display: flex;
+flex-direction: column;
 
+}
+.card-body p{
+    
+    padding-bottom: 1rem;
+    font-size: smaller;
+    margin-bottom: 0; 
 }
 
 
