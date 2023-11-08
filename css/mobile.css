@@ -1,0 +1,45 @@
+.barradelmenu h1{
+    padding: 1rem;
+}
+.barradelmenu{
+    justify-content: space-between;
+}
+.button-menu a{
+    text-decoration: none;
+
+}
+.button-menu span{
+    display: block;
+}
+.menulist{
+    flex-direction: column;
+    background-color: rgb(232, 183, 218);
+    width: 51vw;
+    padding-top:4em ;
+    position: absolute;
+    display: none;
+    margin-left: -3rem;z-index: -1;
+}
+.img-delivery{
+    width: 20rem;
+}
+.medios-de-pago-article {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.pay-methods{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pay-methods h4{
+    margin-left: 2rem;
+}
+.Comofn{
+    flex-direction: column-reverse;
+}
+.Comofn-article{
+    width: 92vw;
+
+}
